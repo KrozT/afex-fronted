@@ -49,7 +49,7 @@ An online album for YouTube videos. Save links, view thumbnails, and play back y
 <a href="https://github.com/KrozT/youtube-album"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://youtube-album.krozt.repl.co">View Demo</a>
+    <a href="https://album-5be5b.web.app/">View Demo</a>
     ·
     <a href="https://github.com/KrozT/youtube-album/issues">Report Bug</a>
     ·
@@ -148,7 +148,7 @@ This project provides a convenient way to keep track of your favorite videos and
    yarn install
    ```
 4. Add the API Keys to your environment variables
-   ```sh
+   ```dotenv
    VITE_APP_NAME='YOUR APP NAME'
 
    VITE_YOUTUBE_API_KEY='YOUR YOUTUBE API KEY'
@@ -162,17 +162,13 @@ This project provides a convenient way to keep track of your favorite videos and
    VITE_FIREBASE_MEASUREMENT_ID='YOUR FIREBASE MEASUREMENT ID'
    ```
    OR
-   ```
+   ```text
    Firebase configuration is stored on environment variables for easy and fast deployment withouth having to change the code.
    If you don't want to use environment variables, you can change the configuration on the `src/composables/database.ts` file.
    ```
 5. Build project
    ```sh
    yarn run build
-   ```
-6. Start binaries
-   ```sh
-   yarn run start
    ```
 
 
@@ -183,7 +179,7 @@ This project provides a convenient way to keep track of your favorite videos and
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Once you have the project initialized
+Once you have the project built and running on your preferred hosting service or locally,
 just go to the address where you have it hosted or your localhost and you will be able to use it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
