@@ -1,0 +1,40 @@
+{
+  "global": {
+    "alerts": {
+      "apiError": "Oops! It seems that an error has occurred on our side, please try again later."
+    }
+  },
+  "views": {
+    "album": {
+      "empty": "Your album is empty"
+    }
+  },
+  "components": {
+    "addVideo": {
+      "title": "Add new video",
+      "placeholder": "Video URL",
+      "button": "Add",
+      "alerts": {
+        "added": "Great! The video has been added successfully.",
+        "empty": "Oops! It seems you left the URL blank.",
+        "invalid": "Oops! It seems the URL is not valid.",
+        "exist": "Oops! This video is already in the album, please try another.",
+        "nonExist": "Oops! It seems the video does not exist."
+      }
+    },
+    "videoItem": {
+      "modals": {
+        "delete": {
+          "body": "Are you sure you want to delete this video?",
+          "buttons": {
+            "cancel": "Cancel",
+            "confirm": "Delete"
+          }
+        }
+      },
+      "alerts": {
+        "deleted": "Done! The video has been deleted from the album."
+      }
+    }
+  }
+}
