@@ -40,12 +40,13 @@
 
 <div align="center">
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/d6c618e969974283b69ba6cb9e16bbd5)](https://app.codacy.com/gh/KrozT/openai-discord/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7e905c51a8af469e89be97b6c91954bd)](https://app.codacy.com/gh/KrozT/youtube-album/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 </div>
 
   <p align="center">
-An online album for YouTube videos. Save links, view thumbnails, and play back your content with ease.    <a href="https://github.com/KrozT/youtube-album"><strong>Explore the docs »</strong></a>
+An online album for YouTube videos. Save links, view thumbnails, and play back your content with ease.
+<a href="https://github.com/KrozT/youtube-album"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://youtube-album.krozt.repl.co">View Demo</a>
@@ -78,10 +79,8 @@ An online album for YouTube videos. Save links, view thumbnails, and play back y
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#usage">Usage</a>
-      <a href="#add-new-language">Add New Language</a>
-    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#internationalization">Internationalization</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
