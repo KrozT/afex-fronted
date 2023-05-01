@@ -45,7 +45,7 @@
 </div>
 
   <p align="center">
-An online album for YouTube videos. Save links, view thumbnails, and play back your content with ease.
+An online album for YouTube videos. Save links, view thumbnails, and play back your content with ease.    <br />
 <a href="https://github.com/KrozT/youtube-album"><strong>Explore the docs »</strong></a>
     <br />
     <br />
