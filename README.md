@@ -40,6 +40,7 @@
 
 <div align="center">
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/eac3143e3bfd40179c62e4427b0c398d)](https://app.codacy.com/gh/KrozT/youtube-album?utm_source=github.com&utm_medium=referral&utm_content=KrozT/youtube-album&utm_campaign=Badge_Grade)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d6c618e969974283b69ba6cb9e16bbd5)](https://app.codacy.com/gh/KrozT/openai-discord/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 </div>
