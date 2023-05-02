@@ -49,7 +49,7 @@ An online album for YouTube videos. Save links, view thumbnails, and play back y
 <a href="https://github.com/KrozT/youtube-album"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://album-5be5b.web.app/">View Demo</a>
+    <a href="https://yault.krozt.dev/">View Demo</a>
     ·
     <a href="https://github.com/KrozT/youtube-album/issues">Report Bug</a>
     ·
@@ -91,7 +91,7 @@ An online album for YouTube videos. Save links, view thumbnails, and play back y
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is an online album of YouTube videos where you can save links and view all of the videos you've stored. You can see the video thumbnails and information, play them back, and remove them from your collection as desired. The interface is user-friendly and easy to navigate, making it simple to organize and access your favorite YouTube content.
+Formerly known as 'Yault' is an online album of YouTube videos where you can save links and view all the videos you've stored. You can see the video thumbnails and information, play them back, and remove them from your collection as desired. The interface is user-friendly and easy to navigate, making it simple to organize and access your favorite YouTube content.
 
 This project provides a convenient way to keep track of your favorite videos and organize them for easy viewing. Whether you're a casual YouTube user or a content creator looking for a way to manage your uploads, this album is a great tool for keeping your videos organized and easily accessible.
 
@@ -141,18 +141,25 @@ This project provides a convenient way to keep track of your favorite videos and
 
 2. Clone the repo
    ```sh
-   git clone https://github.com/KrozT/afex-frontend.git
+   git clone https://github.com/KrozT/youtube-album.git
    ```
 3. Install packages
    ```sh
    yarn install
    ```
-4. Add the API Keys to your environment variables
+4. Add YouTube API Key to your environment variables
    ```dotenv
-   VITE_APP_NAME='YOUR APP NAME'
-
+   # Youtube API Key
    VITE_YOUTUBE_API_KEY='YOUR YOUTUBE API KEY'
-
+   ```
+5. Define the application name on the environment variables (Optional)
+   ```dotenv
+   # Application Name
+   VITE_APP_NAME='YOUR APP NAME'
+   ```
+6. Add Firebase configuration to your environment variables (Recommended)
+   ```dotenv
+   # Firebase Config
    VITE_FIREBASE_API_KEY='YOUR FIREBASE API KEY'
    VITE_FIREBASE_AUTH_DOMAIN='YOUR FIREBASE AUTH DOMAIN'
    VITE_FIREBASE_PROJECT_ID='YOUR FIREBASE PROJECT ID'
@@ -161,12 +168,10 @@ This project provides a convenient way to keep track of your favorite videos and
    VITE_FIREBASE_APP_ID='YOUR FIREBASE APP ID'
    VITE_FIREBASE_MEASUREMENT_ID='YOUR FIREBASE MEASUREMENT ID'
    ```
-   OR
-   ```text
    Firebase configuration is stored on environment variables for easy and fast deployment withouth having to change the code.
    If you don't want to use environment variables, you can change the configuration on the `src/composables/database.ts` file.
-   ```
-5. Build project
+
+7. Build project
    ```sh
    yarn run build
    ```

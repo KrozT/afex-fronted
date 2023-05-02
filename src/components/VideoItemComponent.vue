@@ -93,10 +93,10 @@ const deleteVideo = async () => {
     <modal-component v-model="deleteModal" modal-class="w-11/12 max-w-5xl">
       <p class="p-5 text-xl font-medium">{{ $t('components.videoItem.modals.delete.body') }}</p>
       <div class="modal-action">
-        <button class="btn btn-primary btn-outline btn-wide capitalize" @click="toggleDeleteModal">
+        <button class="btn btn-primary btn-outline lg:btn-wide capitalize" @click="toggleDeleteModal">
           {{ $t('components.videoItem.modals.delete.buttons.cancel')}}
         </button>
-        <button class="btn btn-primary btn-wide capitalize" @click="deleteVideo">
+        <button class="btn btn-primary lg:btn-wide capitalize" @click="deleteVideo">
           {{ $t('components.videoItem.modals.delete.buttons.confirm') }}
         </button>
       </div>

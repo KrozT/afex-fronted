@@ -19,7 +19,7 @@ export function useApi() {
   /**
    * Regex for matching the Video ID from a YouTube URL
    */
-  const regExp = /^(?:https?:\/|\/)?(?:www\.|m\.|.+\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|shorts\/|feeds\/api\/videos\/|watch\?v=|watch\?.+&v=))([\w-]{11})(?![\w-])/;
+  const regExp = /^(?:https?:\/\/|\/)?(?:www\.|m\.|.+\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|shorts\/|feeds\/api\/videos\/|watch\?v=|watch\?.+&v=))([\w-]{11})(?![\w-])/;
 
   /**
    * Resolves the video ID from a YouTube URL (Supports most YouTube URLs)
