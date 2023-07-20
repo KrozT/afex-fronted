@@ -17,7 +17,7 @@ export default {
       {
         light: {
           // eslint-disable-next-line global-require
-          ...require('daisyui/src/colors/themes')['[data-theme=light]'],
+          ...require('daisyui/src/theming/themes')['[data-theme=light]'],
           primary: '#136AE4',
         },
       },
