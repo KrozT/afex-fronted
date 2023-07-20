@@ -112,6 +112,7 @@ This project provides a convenient way to keep track of your favorite videos and
 
 * [![TypeScript][TypeScript-shield]][TypeScript-url]
 * [![Vue.js][Vue.js]][Vue-url]
+* [![Vite][Vite-shield]][Vite-url]
 * [![TailwindCSS][TailwindCSS-shield]][TailwindCSS-url]
 
 ### Packages
@@ -145,7 +146,7 @@ This project provides a convenient way to keep track of your favorite videos and
    ```
 3. Install packages
    ```sh
-   yarn install
+   pnpm install
    ```
 4. Add YouTube API Key to your environment variables
    ```dotenv
@@ -173,7 +174,7 @@ This project provides a convenient way to keep track of your favorite videos and
 
 7. Build project
    ```sh
-   yarn run build
+   pnpm run build
    ```
 
 
@@ -283,6 +284,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
+[Vite-shield]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
+[Vite-url]: https://vitejs.dev/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
