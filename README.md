@@ -151,23 +151,23 @@ This project provides a convenient way to keep track of your favorite videos and
 4. Add YouTube API Key to your environment variables
    ```dotenv
    # Youtube API Key
-   VITE_YOUTUBE_API_KEY='YOUR YOUTUBE API KEY'
+   VITE_YOUTUBE_API_KEY=<YOUR API KEY>
    ```
 5. Define the application name on the environment variables (Optional)
    ```dotenv
    # Application Name
-   VITE_APP_NAME='YOUR APP NAME'
+   VITE_APP_NAME=<YOUR APP NAME>
    ```
 6. Add Firebase configuration to your environment variables (Recommended)
    ```dotenv
    # Firebase Config
-   VITE_FIREBASE_API_KEY='YOUR FIREBASE API KEY'
-   VITE_FIREBASE_AUTH_DOMAIN='YOUR FIREBASE AUTH DOMAIN'
-   VITE_FIREBASE_PROJECT_ID='YOUR FIREBASE PROJECT ID'
-   VITE_FIREBASE_STORAGE_BUCKET='YOUR FIREBASE STORAGE BUCKET'
-   VITE_FIREBASE_MESSAGING_SENDER_ID='YOUR FIREBASE MESSAGING SENDER ID'
-   VITE_FIREBASE_APP_ID='YOUR FIREBASE APP ID'
-   VITE_FIREBASE_MEASUREMENT_ID='YOUR FIREBASE MEASUREMENT ID'
+   VITE_FIREBASE_API_KEY=<YOUR API KEY>
+   VITE_FIREBASE_AUTH_DOMAIN=<YOUR AUTH DOMAIN>
+   VITE_FIREBASE_PROJECT_ID=<YOUR PROJECT ID>
+   VITE_FIREBASE_STORAGE_BUCKET=<YOUR STORAGE BUCKET>
+   VITE_FIREBASE_MESSAGING_SENDER_ID=<YOUR MESSAGING SENDER ID>
+   VITE_FIREBASE_APP_ID=<YOUR APP ID>
+   VITE_FIREBASE_MEASUREMENT_ID=<YOUR MEASUREMENT ID>
    ```
    Firebase configuration is stored on environment variables for easy and fast deployment withouth having to change the code.
    If you don't want to use environment variables, you can change the configuration on the `src/composables/database.ts` file.
