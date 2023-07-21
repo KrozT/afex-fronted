@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import NavBar from '@/components/NavbarComponent.vue';
+import FooterComponent from '@/components/FooterComponent.vue';
 </script>
 
 <template>
@@ -8,6 +9,8 @@ import NavBar from '@/components/NavbarComponent.vue';
     <nav-bar />
     <!-- Main content -->
     <router-view class="flex-auto" />
+    <!-- Footer -->
+    <footer-component company-name="Example Company." />
   </div>
 </template>
 
