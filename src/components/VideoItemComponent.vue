@@ -2,7 +2,7 @@
 import { computed, PropType, ref } from 'vue';
 import { XMarkIcon } from '@heroicons/vue/24/outline';
 import { useI18n } from 'vue-i18n';
-import { Video } from '@/types/video';
+import { VideoModel } from '@/models/videoModel';
 import { useApi } from '@/composables/api';
 import { useDatabase } from '@/composables/database';
 import ModalComponent from '@/components/ModalComponent.vue';
@@ -14,7 +14,7 @@ import YoutubeEmbedded from '@/components/YoutubeEmbedded.vue';
  */
 const props = defineProps({
   modelValue: {
-    type: Object as PropType<Video>,
+    type: Object as PropType<VideoModel>,
     required: true,
   },
 });
@@ -65,7 +65,7 @@ const toggleViewModal = () => {
  * Delete video from the database
  */
 const deleteVideo = async () => {
-  const collection = db.initializeCollection<Video>('videos');
+  const collection = db.initializeCollection<VideoModel>('videos');
   await collection.deleteDocumentsByField('id', props.modelValue?.id)
     .then(() => notie.info(t('components.videoItem.alerts.deleted')))
     .catch((error) => {

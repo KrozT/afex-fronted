@@ -4,7 +4,7 @@ import { onSnapshot, query, orderBy } from 'firebase/firestore';
 import AddVideo from '@/components/AddVideoComponent.vue';
 import VideoItem from '@/components/VideoItemComponent.vue';
 import { useDatabase } from '@/composables/database';
-import { Video } from '@/types/video';
+import { Video } from '@/models/videoModel';
 
 /**
  * Firestore database
@@ -58,7 +58,7 @@ const isAlbumEmpty = computed(() => album.value.length === 0 && snapshotCreated.
 </script>
 
 <template>
-  <div id="home-view">
+  <div id="album-view">
     <div class="flex justify-center w-screen sm:mt-10 inset-0 sticky top z-50">
       <div class="card w-full lg:w-3/4 bg-base-300 rounded-none">
         <div class="card-body">

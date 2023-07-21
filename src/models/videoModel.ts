@@ -1,8 +1,4 @@
-export type Thumbnail = {
-  url: string;
-  width: number;
-  height: number;
-};
+import { Thumbnail } from '@/models/thumbModel';
 
 export type Video = {
   id: string;

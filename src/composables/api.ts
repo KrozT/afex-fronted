@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Thumbnail } from '@/types/video';
+import { Thumbnail } from '@/models/videoModel';
 
 /**
  * YouTube API

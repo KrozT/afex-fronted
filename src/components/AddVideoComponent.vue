@@ -3,8 +3,9 @@ import { ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useDatabase } from '@/composables/database';
 import { useApi } from '@/composables/api';
-import { Thumbnail, Video } from '@/types/video';
+import { Video } from '@/models/videoModel';
 import { useNotie } from '@/composables/notie';
+import { Thumbnail } from '@/models/thumbModel';
 
 /**
  * Video URL input
