@@ -121,6 +121,8 @@ This project provides a convenient way to keep track of your favorite videos and
 - [axios](https://github.com/axios/axios)
 - [daysiui](https://github.com/saadeghi/daisyui)
 - [firebase](https://github.com/firebase/firebase-js-sdk)
+- [pinia](https://github.com/vuejs/pinia)
+- [pinia-plugin-persistedstate](https://github.com/prazdevs/pinia-plugin-persistedstate)
 - [notie](https://github.com/jaredreich/notie)
 - [vue](https://github.com/vuejs/core)
 - [vue-i18n](https://github.com/intlify/vue-i18n-next)
