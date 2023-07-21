@@ -112,7 +112,7 @@ This project provides a convenient way to keep track of your favorite videos and
 
 * [![TypeScript][TypeScript-shield]][TypeScript-url]
 * [![Vue.js][Vue.js]][Vue-url]
-* [![Vite][Vite-shield]][Vite-url]
+* [![YAULT][YAULT-shield]][YAULT-url]
 * [![TailwindCSS][TailwindCSS-shield]][TailwindCSS-url]
 
 ### Packages
@@ -153,23 +153,25 @@ This project provides a convenient way to keep track of your favorite videos and
 4. Add YouTube API Key to your environment variables
    ```dotenv
    # Youtube API Key
-   VITE_YOUTUBE_API_KEY=<YOUR API KEY>
+   YAULT_YOUTUBE_API_KEY=<YOUR API KEY>
    ```
-5. Define the application name on the environment variables (Optional)
+5. Define the application and the company name on the environment variables (Optional)
    ```dotenv
-   # Application Name
-   VITE_APP_NAME=<YOUR APP NAME>
+   # APP INFO
+   YAULT_APP_NAME=<YOUR APP NAME>
+   YAULT_COMPANY_NAME=<YOUR COMPANY NAME>
+
    ```
 6. Add Firebase configuration to your environment variables (Recommended)
    ```dotenv
    # Firebase Config
-   VITE_FIREBASE_API_KEY=<YOUR API KEY>
-   VITE_FIREBASE_AUTH_DOMAIN=<YOUR AUTH DOMAIN>
-   VITE_FIREBASE_PROJECT_ID=<YOUR PROJECT ID>
-   VITE_FIREBASE_STORAGE_BUCKET=<YOUR STORAGE BUCKET>
-   VITE_FIREBASE_MESSAGING_SENDER_ID=<YOUR MESSAGING SENDER ID>
-   VITE_FIREBASE_APP_ID=<YOUR APP ID>
-   VITE_FIREBASE_MEASUREMENT_ID=<YOUR MEASUREMENT ID>
+   YAULT_FIREBASE_API_KEY=<YOUR API KEY>
+   YAULT_FIREBASE_AUTH_DOMAIN=<YOUR AUTH DOMAIN>
+   YAULT_FIREBASE_PROJECT_ID=<YOUR PROJECT ID>
+   YAULT_FIREBASE_STORAGE_BUCKET=<YOUR STORAGE BUCKET>
+   YAULT_FIREBASE_MESSAGING_SENDER_ID=<YOUR MESSAGING SENDER ID>
+   YAULT_FIREBASE_APP_ID=<YOUR APP ID>
+   YAULT_FIREBASE_MEASUREMENT_ID=<YOUR MEASUREMENT ID>
    ```
    Firebase configuration is stored on environment variables for easy and fast deployment withouth having to change the code.
    If you don't want to use environment variables, you can change the configuration on the `src/composables/database.ts` file.
@@ -286,8 +288,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
-[Vite-shield]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
-[Vite-url]: https://vitejs.dev/
+[YAULT-shield]: https://img.shields.io/badge/YAULT-%23646CFF.svg?style=for-the-badge&logo=YAULT&logoColor=white
+[YAULT-url]: https://YAULTjs.dev/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00

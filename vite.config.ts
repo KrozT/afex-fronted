@@ -11,7 +11,7 @@ export default defineConfig({
       include: [path.resolve(__dirname, './src/locales/**')],
     }),
   ],
-  envPrefix: ['VITE_'],
+  envPrefix: ['VITE_', 'YAULT_'],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
