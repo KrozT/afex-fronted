@@ -11,7 +11,7 @@ const router = createRouter({
  * Prefer use of a meta library for this but this is a simple solution
  */
 router.beforeEach((to, from, next) => {
-  if (to.meta.title) document.title = `${to.meta.title} - ${import.meta.env.VITE_APP_NAME}`;
+  if (to.meta.title) document.title = `${to.meta.title} - ${import.meta.env.YAULT_APP_NAME}`;
   next();
 });
 
